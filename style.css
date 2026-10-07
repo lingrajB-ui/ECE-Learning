@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.component {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.calculator {
+    background-color: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculator input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+}
+
+.calculator button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+html, body {
+    background-color: lightblue !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.component {
+    width: 90%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.calculator {
+    width: 90%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.calculator input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+.calculator {
+    width: 90%;
+    max-width: 320px;
+    margin: 30px auto 50px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#calculator {
+    margin-bottom: 80px;
+}
